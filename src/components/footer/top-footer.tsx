@@ -64,7 +64,7 @@ const TopFooter = () => {
                 </p>
                 <div className='flex bg-gray-800 px-4 py-2 rounded-full items-center'>
 
-                    <input type="email" placeholder="Enter Email" className=" bg-gray-800 focus-visible:ring-0  border-none focus-visible:outline-0 h-full placeholder:text-gray-400 placeholder:text-sm text-gray-400" />
+                    <input type="email" placeholder="Enter Email" className=" bg-gray-800  w-full focus-visible:ring-0  border-none focus-visible:outline-0 h-full placeholder:text-gray-400 placeholder:text-sm text-gray-400" />
 
                     <button className="text-primaryColor font-semibold ml-2 hover:-rotate-12 transition-transform duration-200">
                         <SendHorizontal />

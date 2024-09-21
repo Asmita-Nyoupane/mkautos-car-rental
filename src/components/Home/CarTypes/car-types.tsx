@@ -15,16 +15,15 @@ const Cartypes = () => {
                 <div className="flex space-x-16 animate-loop-scroll  group-hover:paused"   >
                     {
                         carTypesData.map((type, index) => (
-                            <div className=' bg-white py-4 px-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105' key={index}>
+                            <div className=' bg-white py-4 text-black/80 px-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105' key={index}>
 
                                 <Image
-                                    key={index}
                                     src={type.image}
                                     alt={type.name}
                                     width={100}
                                     height={100}
                                     loading='lazy'
-                                    className="max-w-none h-16"
+                                    className="max-w-none h-16 "
                                 />
                                 <h2 className='text-semibold text-center text-lg'>{type.name}</h2>
                                 <p className='text-gray-500 text-center'>{type.number} cars</p>
@@ -43,7 +42,6 @@ const Cartypes = () => {
                             <div className='bg-white py-4 px-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105' key={index}>
 
                                 <Image
-                                    key={index}
                                     src={type.image}
                                     alt={type.name}
                                     width={100}

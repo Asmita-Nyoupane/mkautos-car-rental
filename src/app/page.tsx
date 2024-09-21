@@ -19,10 +19,10 @@ export default function Home() {
       <section className="bg-gray-100 space-y-5 py-6">
         <div className='flex flex-col gap-2 items-center justify-center'>
           <h2 className="uppercase  font-semibold text-gray-700">Car Types</h2>
-          <h1 className="title capitalize">
-            Discover Our <span className="text-primaryColor">Diverse Range </span> of Vehicles
+          <h1 className="title capitalize text-center text-gray-800">
+            Discover Our <span className="text-primaryColor w-11/12 mx-auto">Diverse Range </span> of Vehicles
           </h1>
-          <p className="text-gray-500 text-md text-center">From compact cars to SUVs, find the perfect vehicle that suits your lifestyle and needs.</p>
+          <p className="text-gray-500 text-md text-center w-11/12 mx-auto">From compact cars to SUVs, find the perfect vehicle that suits your lifestyle and needs.</p>
         </div>
         <CarTypes />
       </section>
@@ -33,12 +33,12 @@ export default function Home() {
       <OurService />
       {/* Car Brands */}
       <section className="bg-gray-100 space-y-5 py-6">
-        <div className='flex flex-col gap-2 items-center justify-center'>
+        <div className='flex flex-col gap-2 items-center justify-center '>
           <h2 className="uppercase font-semibold text-gray-700 ">Car Brands</h2>
-          <h1 className="title capitalize">
-            Explore Our <span className="text-primaryColor">Premium Vehicle Selection</span>
+          <h1 className="title capitalize text-center text-gray-800">
+            Explore Our <span className="text-primaryColor w-11/12 mx-auto">Premium Vehicle Selection</span>
           </h1>
-          <p className="text-gray-500 text-md text-center">From sporty coupes to family-friendly SUVs, find the perfect car to elevate your driving experience.</p>
+          <p className="text-gray-500 text-md text-center w-11/12 mx-auto">From sporty coupes to family-friendly SUVs, find the perfect car to elevate your driving experience.</p>
         </div>
         <CarBrands />
       </section>

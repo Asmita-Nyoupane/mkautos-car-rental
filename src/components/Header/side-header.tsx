@@ -41,7 +41,7 @@ const SideHeader = () => {
 
             {/* Sidebar for Mobile View */}
             <div
-                className={`md:hidden fixed top-0 left-0 w-[40%] max-w-sm h-full bg-[#2C2C2C] text-white z-50 flex flex-col items-start p-6 transition-transform transform ${isOpen ? "translate-x-0" : "-translate-x-full"
+                className={`md:hidden fixed top-0 left-0 w-[60%] max-w-sm h-full bg-[#2C2C2C] text-white z-50 flex flex-col items-start p-6 transition-transform transform ${isOpen ? "translate-x-0" : "-translate-x-full"
                     } duration-300 ease-in-out`}
             >
                 {/* Sidebar Top Section */}

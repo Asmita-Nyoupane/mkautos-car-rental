@@ -63,11 +63,11 @@ const Testimonials = () => {
                 <p className='text-md text-gray-500 md:w-[70%] text-center'>Read real feedback from our satisfied customers who have enjoyed our top-notch car rental services. Discover how we’ve made their journeys memorable and stress-free.</p>
 
             </div>
-            <div className="slider-container   ">
+            <div className="slider-container ">
                 <Slider {...settings} className=''>
                     {customerTestimonials.map((testimonial, i) => (
                         <div key={i} className='px-4'>
-                            <Card className='flex flex-col gap-4 py-4 px-6 shadow-lg rounded-xl bg-gray-50 h-[274px]'>
+                            <Card className='flex flex-col gap-4 py-4 px-6 shadow-lg rounded-xl bg-gray-50   md:h-[300px] '>
                                 <div className="flex items-center gap-4">
                                     <div className='rounded-full'>
                                         <Image

@@ -49,17 +49,17 @@ const AboutSection = () => {
 
 
                 <div className=' flex flex-col justify-center items-center space-y-8'>
-                    <div className='flex justify-between w-full'>
+                    <div className='flex flex-wrap gap-5 md:justify-between w-full'>
                         <div className='text-center'>
-                            <h2 className="text-5xl font-bold text-primaryColor">{years}+</h2>
+                            <h2 className="title text-primaryColor">{years}+</h2>
                             <p className="text-gray-500 text-sm mt-1">Years of Service</p>
                         </div>
                         <div className='text-center'>
-                            <h2 className="text-5xl font-bold text-primaryColor">{cars}+</h2>
+                            <h2 className="title text-primaryColor">{cars}+</h2>
                             <p className="text-gray-500 text-sm mt-1">Luxury Cars</p>
                         </div>
                         <div className='text-center'>
-                            <h2 className="text-5xl font-bold text-primaryColor">{clients}+</h2>
+                            <h2 className="title text-primaryColor">{clients}+</h2>
                             <p className="text-gray-500 text-sm mt-1">Happy Clients</p>
                         </div>
                     </div>

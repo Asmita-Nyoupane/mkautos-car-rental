@@ -14,7 +14,7 @@ const AvailableCars = () => {
                 <h2 className="text-center uppercase  font-semibold text-gray-700">
                     Our Fleet
                 </h2>
-                <h1 className='title capitalize '>
+                <h1 className='title capitalize'>
                     Explore the <span className='text-primaryColor'>Perfect Ride</span> for Every Journey
                 </h1>
                 <p className='text-center text-md text-gray-500'>
@@ -28,7 +28,7 @@ const AvailableCars = () => {
                 {cars.map((car) => (
                     <Card
                         key={car.name}
-                        className='rounded-lg py-4 transform transition-all duration-500 hover:scale-105 hover:shadow-2xl space-y-4'
+                        className='rounded-lg py-4 transform transition-all duration-500 md:hover:scale-105 hover:shadow-2xl space-y-4'
                     >
                         <div className='relative  px-2 py-4 '>
                             <Image
@@ -38,7 +38,7 @@ const AvailableCars = () => {
                                 width={500}
                                 quality={100}
                                 priority={true}
-                                className='object-cover rounded-md transition-transform duration-300 ease-in-out transform  h-[120px] w-full hover:scale-110'
+                                className=' transition-transform duration-300 ease-in-out transform  sm:h-[180px] lg:h-[140px] w-full md:hover:scale-110'
                             />
                         </div>
 

@@ -31,7 +31,7 @@ const DocumentRequirements = () => {
                     {
                         InternationalDocumentData.map((data, i) => (
 
-                            <Card key={i} className="flex  flex-col items-center gap-2 p-4 w-[260px] h-[170px] bg-white transition-transform transform hover:scale-105">
+                            <Card key={i} className="flex  flex-col items-center gap-2 p-4  w-[200px] sm:w-[260px] h-[170px] bg-white transition-transform transform hover:scale-105">
                                 <Image
                                     src={data.image}
                                     alt={data.title}
@@ -39,7 +39,7 @@ const DocumentRequirements = () => {
                                     width={100}
                                     className="size-16 object-cover"
                                 />
-                                <p className="text-lg font-medium text-center text-gray-500">{data.title}</p>
+                                <p className="sm:text-lg font-medium text-center text-gray-500">{data.title}</p>
                             </Card>
 
 
@@ -56,7 +56,7 @@ const DocumentRequirements = () => {
                 <div className="flex flex-wrap gap-10 items-center justify-center mt-6">
                     {
                         DocumentData.map((data, i) => (
-                            <Card key={i} className="flex  flex-col items-center gap-2 p-4 w-[260px] h-[170px] bg-white transition-transform transform hover:scale-105">
+                            <Card key={i} className="flex  flex-col items-center gap-2 p-4 w-[200px] sm:w-[260px] hh-[170px] bg-white transition-transform transform hover:scale-105">
                                 <Image
                                     src={data.image}
                                     alt={data.title}
@@ -64,7 +64,7 @@ const DocumentRequirements = () => {
                                     width={100}
                                     className="size-16 object-cover"
                                 />
-                                <p className="text-lg font-medium text-center text-gray-500">{data.title}</p>
+                                <p className="sm:text-lg font-medium text-center text-gray-500">{data.title}</p>
                             </Card>
                         ))
                     }
