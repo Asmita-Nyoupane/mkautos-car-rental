@@ -1,22 +1,22 @@
 export const serviceData = [
     {
-        image: "",
-        title: "Luxury Car Rental",
-        subtitle: "MKAutos offers a premium selection of high-end vehicles, including brands like Range Rover, Cadillac, Ferrari, and Lamborghini. Their fleet is tailored to those seeking luxury transportation in the UAE, particularly in Dubai and Abu Dhabi.",
+        image: "/assets/service/car.png",
+        title: "Luxury Cars",
+        subtitle: "Rent high-end vehicles like Range Rover, Ferrari, and Lamborghini for ultimate luxury in Dubai and Abu Dhabi.",
     },
     {
-        image: "",
-        title: "Personalized Assistance and Booking",
-        subtitle: "Customers can easily book cars through their website or WhatsApp, where they receive personalized service and customized quotes. MKAutos provides a hassle-free booking experience with delivery options for added convenience.",
+        image: "/assets/service/trust.png",
+        title: "Easy Booking",
+        subtitle: "Book your car effortlessly through our website or WhatsApp with personalized service and convenient delivery.",
     },
     {
-        image: "",
-        title: "Airport Pickup and Drop-off Service",
-        subtitle: "MKAutos provides shuttle service for airport transportation 2. This indicates they offer both pickup and drop-off services from/to the airport.",
+        image: "/assets/service/airport.png",
+        title: "Airport Pickup",
+        subtitle: "Enjoy seamless airport pickup and drop-off services for stress-free travel.",
     },
     {
-        image: "",
-        title: "Flexible Rental Durations",
-        subtitle: "MKAutos caters to both short-term and long-term rental needs. Whether you need a luxury car for a day, a weekend, or an extended period, MKAutos offers flexible rental options.",
+        image: "/assets/service/duration.png",
+        title: "Flexible Rentals",
+        subtitle: "Choose from short-term or long-term rental options tailored to your needs.",
     },
-]
+];

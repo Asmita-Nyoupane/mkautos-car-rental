@@ -10,7 +10,7 @@ const DocumentRequirements = () => {
 
             {/* Title and description section */}
             <div className='flex flex-col gap-4 items-center justify-center'>
-                <h2 className="text-center uppercase  font-bold text-gray-700">
+                <h2 className="text-center uppercase  font-semibold text-gray-700">
                     Pre-Requisites
                 </h2>
                 <h1 className='title capitalize'>

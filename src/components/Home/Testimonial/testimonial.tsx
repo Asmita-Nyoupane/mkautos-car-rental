@@ -56,7 +56,7 @@ const Testimonials = () => {
         <section className="w-11/12 mx-auto space-y-10">
             <div className='flex flex-col gap-3 items-center justify-center'>
 
-                <h2 className=" text-center uppercase  font-bold text-gray-700">What Our Customers Are Saying</h2>
+                <h2 className=" text-center uppercase  font-semibold text-gray-700">What Our Customers Are Saying?</h2>
                 <h1 className='title capitalize'>
                     See How Our Clients <span className=' text-primaryColor'>Love Their Rentals</span>
                 </h1>
@@ -67,7 +67,7 @@ const Testimonials = () => {
                 <Slider {...settings} className=''>
                     {customerTestimonials.map((testimonial, i) => (
                         <div key={i} className='px-4'>
-                            <Card className='flex flex-col gap-4 py-4 px-6 shadow-lg rounded-xl bg-gray-50 h-[270px]'>
+                            <Card className='flex flex-col gap-4 py-4 px-6 shadow-lg rounded-xl bg-gray-50 h-[274px]'>
                                 <div className="flex items-center gap-4">
                                     <div className='rounded-full'>
                                         <Image

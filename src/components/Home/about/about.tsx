@@ -32,10 +32,12 @@ const AboutSection = () => {
 
     return (
         <div className='w-11/12 mx-auto flex   md:flex-row flex-col justify-center gap-10 items-center flex-wrap space-y-6'>
+
+
             {/* Left Section: Story and Content */}
             <div className='space-y-4 md:w-[48%] w-full'>
                 <div className='space-y-2'>
-                    <h2 className="uppercase  font-bold text-gray-700 ">Our Journey</h2>
+                    <h2 className="uppercase  font-semibold text-gray-700 ">Our Journey</h2>
                     <h1 className="title capitalize">
                         A Commitment to <span className="text-primaryColor">Quality and Excellence</span>
                     </h1>

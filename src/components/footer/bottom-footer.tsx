@@ -25,7 +25,6 @@ const BottomFooter = () => {
                     Privacy Policy
                 </Link>
             </div>
-
             {/* Social Media Icons */}
             <div className="flex items-center gap-4">
                 {socialMedia.map((media) => (
@@ -40,6 +39,7 @@ const BottomFooter = () => {
                     </Link>
                 ))}
             </div>
+
         </div>
     );
 };

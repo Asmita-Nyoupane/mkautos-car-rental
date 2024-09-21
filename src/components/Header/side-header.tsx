@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { Menu, MessageCircleMore, Phone, X } from "lucide-react";
+import { Menu, Phone, X } from "lucide-react";
 import { navLinks } from "./navlinks";
 import { LinkItem } from "./header";
 
@@ -34,7 +34,7 @@ const SideHeader = () => {
                         className="h-[40px] w-auto object-contain"
                     />
                 </Link>
-                <button onClick={toggleNavBar} className="text-2xl text-primaryColor hover:bg-gray-300 rounded-md p-2">
+                <button onClick={toggleNavBar} className="text-2xl text-primaryColor ">
                     <Menu />
                 </button>
             </div>
@@ -69,21 +69,20 @@ const SideHeader = () => {
                             key={i}
                             href={link.link}
                             onClick={closeNavBar}
-                            className={`text-md font-medium hover:text-primaryColor transition-all duration-300 ease-in-out ${path === link.link ? "text-primaryColor font-semibold" : ""
+                            className={`font-medium hover:text-primaryColor transition-all duration-300 ease-in-out ${path === link.link ? "text-primaryColor font-semibold" : ""
                                 }`}
                         >
                             {link.name}
                         </Link>
                     ))}
-                    {/* Chat and Phone Icons */}
-                    <div className='flex flex-col gap-3 '>
-                        <div className="flex items-center gap-2 cursor-pointer text-gray-200 hover:text-primaryColor transition-colors duration-300">
-                            <Phone className="w-5 h-5" />
-                            <span className="text-sm">Call Us</span>
+                    {/* Contact Info */}
+                    <div className="flex items-center gap-2 text-gray-200">
+                        <div className="flex items-center gap-2 border  border-primaryColor p-2  hover:scale-110 rounded-full transition-all duration-300 cursor-pointer 0">
+                            <Phone className="w-5 h-5 text-white" />
                         </div>
-                        <div className="flex items-center gap-2 cursor-pointer text-gray-200 hover:text-primaryColor transition-colors duration-300">
-                            <MessageCircleMore className="w-5 h-5" />
-                            <span className="text-sm">Chat</span>
+                        <div className="space-y-1 text-gray-100 text-[14px] text-left">
+                            <p className="">Need Help?</p>
+                            <p className="">+971-56-1234567</p>
                         </div>
                     </div>
                 </nav>
