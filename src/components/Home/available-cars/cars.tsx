@@ -14,7 +14,7 @@ const AvailableCars = () => {
                 <h2 className="text-center uppercase  font-semibold text-gray-700">
                     Our Fleet
                 </h2>
-                <h1 className='title capitalize'>
+                <h1 className='title capitalize text-center'>
                     Explore the <span className='text-primaryColor'>Perfect Ride</span> for Every Journey
                 </h1>
                 <p className='text-center text-md text-gray-500'>

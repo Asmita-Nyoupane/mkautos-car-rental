@@ -57,7 +57,7 @@ const Testimonials = () => {
             <div className='flex flex-col gap-3 items-center justify-center'>
 
                 <h2 className=" text-center uppercase  font-semibold text-gray-700">What Our Customers Are Saying?</h2>
-                <h1 className='title capitalize'>
+                <h1 className='title capitalize text-center'>
                     See How Our Clients <span className=' text-primaryColor'>Love Their Rentals</span>
                 </h1>
                 <p className='text-md text-gray-500 md:w-[70%] text-center'>Read real feedback from our satisfied customers who have enjoyed our top-notch car rental services. Discover how we’ve made their journeys memorable and stress-free.</p>
