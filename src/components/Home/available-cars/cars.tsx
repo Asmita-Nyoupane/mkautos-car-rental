@@ -23,28 +23,29 @@ const AvailableCars = () => {
             </div>
 
             {/* Cars listing section */}
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
 
                 {cars.map((car) => (
                     <Card
                         key={car.name}
-                        className='rounded-lg py-4 transform transition-all duration-500 md:hover:scale-105 hover:shadow-2xl space-y-4'
+                        className='rounded-lg p-4 transform transition-all duration-500 md:hover:scale-105 hover:shadow-2xl space-y-4'
                     >
-                        <div className='relative  px-2 py-4 '>
+
+                        <div className='relative  overflow-hidden h-[160px] bg-gray-100  rounded-lg flex items-center justify-center'>
                             <Image
                                 src={car.image}
                                 alt={car.name}
-                                height={500}
-                                width={500}
+                                height={300}
+                                width={300}
                                 quality={100}
                                 priority={true}
-                                className=' transition-transform duration-300 ease-in-out transform  sm:h-[180px] lg:h-[140px] w-full md:hover:scale-110'
+                                className='object-cover transition-transform duration-300 ease-in-out transform hover:scale-110 '
                             />
                         </div>
 
-                        <h2 className='text-xl font-semibold px-4'>{car.name}</h2>
+                        <h2 className='text-xl font-semibold '>{car.name}</h2>
 
-                        <section className='flex flex-wrap gap-6 py-4 px-4'>
+                        <section className='flex flex-wrap gap-6 py-4 '>
                             <div className='flex gap-3 items-center bg-gray-100 py-2 px-2 w-fit rounded-lg shadow-sm'>
                                 <Image src='/assets/car-icon-image/gas-pump.png' alt='fuel type' height={100} width={100} className='size-5' />
                                 <span className='text-gray-700 font-semibold text-sm'>{car.fuelType}</span>
@@ -74,7 +75,7 @@ const AvailableCars = () => {
                                 className='bg-transparent border-2 border-primaryColor text-primaryColor hover:text-white hover:bg-primaryColor font-semibold transition duration-300 '
                                 size='sm'
                             >
-                                Read More
+                                View Details
                             </Button>
                         </div>
                     </Card>

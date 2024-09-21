@@ -16,8 +16,8 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       {/* Car Types */}
-      <section className="bg-gray-100 space-y-5 py-6">
-        <div className='flex flex-col gap-2 items-center justify-center'>
+      <section className="bg-gray-100 py-12 space-y-12 ">
+        <div className='flex flex-col gap-4 items-center justify-center'>
           <h2 className="uppercase  font-semibold text-gray-700">Car Types</h2>
           <h1 className="title capitalize text-center text-gray-800">
             Discover Our <span className="text-primaryColor w-11/12 mx-auto">Diverse Range </span> of Vehicles
@@ -27,13 +27,13 @@ export default function Home() {
         <CarTypes />
       </section>
       <AvailableCars />
-      <section className="bg-gray-100 space-y-5 py-6">
+      <section className="bg-gray-100 ">
         <DocumentRequirements />
       </section>
       <OurService />
       {/* Car Brands */}
-      <section className="bg-gray-100 space-y-5 py-6">
-        <div className='flex flex-col gap-2 items-center justify-center '>
+      <section className="bg-gray-100 py-12 space-y-12 ">
+        <div className='flex flex-col gap-4 items-center justify-center '>
           <h2 className="uppercase font-semibold text-gray-700 ">Car Brands</h2>
           <h1 className="title capitalize text-center text-gray-800">
             Explore Our <span className="text-primaryColor w-11/12 mx-auto">Premium Vehicle Selection</span>

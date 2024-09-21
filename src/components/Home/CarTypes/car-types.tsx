@@ -11,8 +11,8 @@ const Cartypes = () => {
 
     return (
         <div className="flex flex-wrap justify-center space-x-8 px-6 py-10">
-            <div className="flex overflow-hidden space-x-16 group   mx-auto">
-                <div className="flex space-x-16 animate-loop-scroll  group-hover:paused"   >
+            <div className="flex overflow-hidden  space-x-6 sm:space-x-10 group   mx-auto">
+                <div className="flex space-x-6 sm:space-x-10 animate-loop-scroll  group-hover:paused"   >
                     {
                         carTypesData.map((type, index) => (
                             <div className=' bg-white py-4 text-black/80 px-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105' key={index}>
@@ -35,7 +35,7 @@ const Cartypes = () => {
                 </div>
                 <div
 
-                    className="flex space-x-16 animate-loop-scroll  group-hover:paused" aria-hidden="true"  >
+                    className="flex space-x-6 sm:space-x-10 animate-loop-scroll  group-hover:paused" aria-hidden="true"  >
                     {
                         carTypesData.map((type, index) => (
 
