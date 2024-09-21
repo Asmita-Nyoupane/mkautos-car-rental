@@ -118,8 +118,8 @@ const DocumentRequirements: React.FC = () => {
             {/* Title and description section */}
             <div className="flex flex-col gap-4 items-center justify-center">
                 <h2 className="text-center  uppercase font-semibold text-gray-700">Pre-Requisites</h2>
-                <h1 className="title capitalize text-gray-800">
-                    <span className="text-primaryColor text-center">Documents Required</span> to Rent a Car
+                <h1 className="title capitalize text-gray-800 text-center">
+                    <span className="text-primaryColor ">Documents Required</span> to Rent a Car
                 </h1>
                 <p className="text-center text-md text-gray-500 md:w-[70%] leading-relaxed">
                     Whether you&apos;re a resident or an international tourist, MKAutos ensures that renting a luxury car is a smooth and straightforward process. Here are the documents required based on your nationality.
